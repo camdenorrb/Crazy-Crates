@@ -23,13 +23,15 @@
         </repository>
         <repository>
             <id>placeholderapi</id>
-            <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
+		<!--
         <repository>
             <id>mvdw-software</id>
             <name>MVdW Public Repositories</name>
             <url>http://repo.mvdw-software.be/content/groups/public/</url>
         </repository>
+		-->
         <repository>
             <id>codemc-repo</id>
             <url>https://repo.codemc.io/repository/maven-public/</url>
@@ -189,6 +191,7 @@
             <version>2.12</version>
             <scope>provided</scope>
         </dependency>
+		<!--
         <dependency>
             <groupId>be.maximvdw</groupId>
             <artifactId>MVdWPlaceholderAPI</artifactId>
@@ -205,6 +208,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+		-->
     </dependencies>
 
     <build>
